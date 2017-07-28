@@ -69,7 +69,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'My App',
       filename: './view/index.html',
       template : './view/common.ejs'
     }),
