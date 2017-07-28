@@ -1,3 +1,6 @@
 example/node_modules
 .DS_Store
 ./**/.DS_Store
+example/build
+example/dist
+node_modules

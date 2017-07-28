@@ -1,9 +1,9 @@
 let path = require('path');
-let HtmlExtract = require('./index');
+let HtmlExtract = require('../index');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry : [
-    './src/js/index.js'
+    './index.js'
   ],
   output : {
       path : path.resolve('./build'),
@@ -69,8 +69,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      filename: './view/index.html',
-      template : './view/common.ejs'
+      filename: './index.html',
+      template : './template.html'
     }),
     new HtmlExtract()
   ]
