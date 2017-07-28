@@ -1,6 +1,6 @@
 {
   "name": "html-extract-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -46,5 +46,5 @@
     "html-extract-plugin"
   ],
   "author": "Brody Liao <brodyliao@msn.com> (https://github.com/magicalcosmos)",
-  "license": "ISC"
+  "license": "MIT"
 }
