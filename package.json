@@ -1,8 +1,8 @@
 {
-  "name": "plugin",
-  "version": "1.0.0",
+  "name": "html-extract-plugin",
+  "version": "0.0.1",
   "description": "",
-  "main": "hello-world.js",
+  "main": "index.js",
   "dependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
@@ -26,9 +26,25 @@
     "transform-runtime": "0.0.0",
     "webpack": "^3.3.0"
   },
+  "bugs": {
+    "url": "https://github.com/magicalcosmos/html-extract-plugin/issues"
+  },
+  "homepage": "https://github.com/magicalcosmos/html-extract-plugin",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Brody Liao",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:magicalcosmos/html-extract-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin",
+    "html",
+    "html-extract",
+    "html-extract-plugin"
+  ],
+  "author": "Brody Liao <brodyliao@msn.com> (https://github.com/magicalcosmos)",
   "license": "ISC"
 }
