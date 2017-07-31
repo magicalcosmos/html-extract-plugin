@@ -72,6 +72,8 @@ module.exports = {
       filename: './index.html',
       template : './template.html'
     }),
-    new HtmlExtract()
+    new HtmlExtract({
+        htmlRoot : process.cwd()
+    })
   ]
 };
