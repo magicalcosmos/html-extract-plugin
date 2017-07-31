@@ -1,8 +1,8 @@
-#Instruction
+# Instruction
 
 This is a plugin of webpack which extracting common html, we have two things need to do, first, we should create template for common html, second, no-common html is as webpack entry html.
 
-##How to use it
+## How to use it
 
 1. `npm install html-extract-plugin --save-dev`
 
